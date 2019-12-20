@@ -1,2 +1,2 @@
 source 'http://rubygems.org'
-gem 'bcat'
+gem 'bcat', '>= 0.6.2'
