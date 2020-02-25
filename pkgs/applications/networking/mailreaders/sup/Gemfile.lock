@@ -12,7 +12,7 @@ GEM
     mime-types-data (3.2016.0221)
     mini_portile2 (2.1.0)
     ncursesw (1.4.9)
-    rake (11.1.2)
+    rake (13.0.1)
     rmail-sup (1.0.1)
     sup (0.22.1)
       chronic (~> 0.9.1)
@@ -33,9 +33,9 @@ PLATFORMS
 
 DEPENDENCIES
   gpgme
-  rake
+  rake (>= 12.3.3)
   sup
   xapian-ruby (~> 1.2.22)
 
 BUNDLED WITH
-   1.10.6
+   1.17.3
