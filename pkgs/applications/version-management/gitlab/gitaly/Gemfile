@@ -7,7 +7,7 @@ gem 'rugged', '~> 0.28'
 gem 'github-linguist', '~> 6.1', require: 'linguist'
 gem 'gitlab-markup', '~> 1.6.5'
 gem 'gitaly-proto', '~> 1.13.0'
-gem 'activesupport', '~> 5.0.2'
+gem 'activesupport', '~> 5.2.4', '>= 5.2.4.3'
 gem 'rdoc', '~> 4.2'
 gem 'gitlab-gollum-lib', '~> 4.2', require: false
 gem 'gitlab-gollum-rugged_adapter', '~> 0.4.4', require: false
@@ -27,7 +27,7 @@ group :development, :test do
   gem 'rspec', require: false
   gem 'rspec-parameterized', require: false
   gem 'timecop', require: false
-  gem 'factory_bot', require: false
+  gem 'factory_bot', '>= 4.11.1', require: false
   gem 'pry', '~> 0.12.2', require: false
 
   # gitlab-shell spec gems
